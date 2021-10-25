@@ -20,7 +20,7 @@ h1 {
   width: 15%;
 }
 
-#span-grey {
+.span-grey {
   color: grey;
 }
 
@@ -28,11 +28,8 @@ h1 {
   color: rgb(7, 154, 252);
 }
 
-#span-grey {
-  color: grey;
-}
 
-#span-yellow {
+.span-yellow {
   background: yellow;
 }
 
@@ -40,6 +37,13 @@ h1 {
   font-size: 10px;
 }
 
+ul {
+  padding-left: 16px;
+}
+
+table {
+  border-spacing: 0px;
+}
 
 .table-head {
   background: rgb(9, 104, 182);
@@ -60,4 +64,26 @@ h1 {
 
 .row-colored {
   background: rgb(113, 184, 243);
+}
+
+footer {
+  color: grey;
+}
+
+.img-footer-one {
+  background: url("../img/monitor.jpg") no-repeat;
+  background-size: contain;
+  height: 150px;
+}
+
+.img-footer-two {
+  background: url("../img/graph.jpg") no-repeat;
+  background-size: contain;
+  height: 150px;
+}
+
+.lorem-footer {
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
 }

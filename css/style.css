@@ -1,4 +1,4 @@
-header {
+.background {
   background: rgb(0, 132, 255) url("../img/pattern.png") repeat;
   background-size: contain;
   height: 100px;
@@ -16,17 +16,48 @@ h1 {
 }
 
 .written-by {
+  margin-bottom: 20px;
   width: 15%;
 }
 
-#first-span {
+#span-grey {
   color: grey;
 }
 
-#second-span {
+#span-azure {
   color: rgb(7, 154, 252);
 }
 
-#third-span {
+#span-grey {
   color: grey;
+}
+
+#span-yellow {
+  background: yellow;
+}
+
+.photo-description {
+  font-size: 10px;
+}
+
+
+.table-head {
+  background: rgb(9, 104, 182);
+  color: white;
+}
+
+.column-one {
+  width: 25%;
+}
+
+.column-two {
+  width: 25%;
+}
+
+.column-three {
+  width: 40%;
+}
+
+.row-colored {
+  background: rgb(113, 184, 243);
 }

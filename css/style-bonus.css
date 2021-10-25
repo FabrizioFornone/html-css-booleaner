@@ -1,0 +1,120 @@
+body {
+  border: 2px solid black;
+  padding: 1%;
+  background: rgba(189, 255, 255, 0.2);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.background {
+  background: rgb(0, 132, 255) url("../img/pattern.png") repeat;
+  background-size: contain;
+  height: 100px;
+}
+
+.logo {
+  background: url("../img/logo.svg") no-repeat bottom;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.written-by {
+  margin-bottom: 20px;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.span-grey {
+  color: grey;
+}
+
+#span-azure {
+  color: rgb(7, 154, 252);
+}
+
+.span-yellow {
+  background: yellow;
+}
+
+.photo-description {
+  font-size: 10px;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+table {
+  border-spacing: 0px;
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.table-head {
+  background: rgb(9, 104, 182);
+  color: white;
+}
+
+.column-one {
+  width: 25%;
+}
+
+.column-two {
+  width: 25%;
+}
+
+.column-three {
+  width: 40%;
+}
+
+.row-colored {
+  background: rgb(113, 184, 243);
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  background: rgb(113, 184, 243);
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.img-footer-one,
+.img-footer-two {
+  background-size: contain;
+  height: 150px;
+  width: 20%;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-footer-one {
+  background: url("../img/monitor.jpg") no-repeat center;
+}
+
+.img-footer-two {
+  background: url("../img/graph.jpg") no-repeat center;
+}
+
+.lorem-footer {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  background: rgba(0, 0, 0, 0.7);
+  transform: translate(-50%, -50%);
+  padding: 2%;
+  border: 2px solid white;
+  border-radius: 1%;
+}

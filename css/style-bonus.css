@@ -1,112 +1,133 @@
 body {
-  border: 2px solid black;
   padding: 1%;
   background: rgba(189, 255, 255, 0.2);
   font-family: "Ubuntu", sans-serif;
 }
 
-.background {
+header > .background {
   background: rgb(0, 132, 255) url("../img/pattern.png") repeat;
   background-size: contain;
   height: 100px;
+  border: 2px solid black;
 }
 
-.logo {
+header .logo {
   background: url("../img/logo.svg") no-repeat bottom;
   background-size: contain;
   height: 100%;
   width: 100%;
 }
-
 h1 {
   text-align: center;
   text-decoration: underline;
 }
 
-.written-by {
+header .written-by {
   margin-bottom: 20px;
   display: inline-block;
   padding-right: 20px;
 }
-
-.span-grey {
+.written-by > .span-grey {
   color: grey;
 }
 
-#span-azure {
+.written-by > #span-azure {
   color: rgb(7, 154, 252);
 }
 
-.span-yellow {
-  background: yellow;
+section > .tim-photos {
+  width: 100%;
+  position: relative;
 }
 
-.photo-description {
+.tim-photos > .photo {
+  display: inline-block;
+}
+
+.tim-photos > .two.photo {
+  position: absolute;
+  right: 0;
+}
+
+.tim-photos .description {
+  margin-top: 10px;
   font-size: 10px;
 }
 
-ul {
+p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+p > .span-yellow {
+  background: yellow;
+}
+
+section ul {
   padding-left: 16px;
 }
 
-table {
+section table {
   border-spacing: 0px;
   border: 2px solid black;
   padding: 2px;
 }
 
-.table-head {
+table .table-head {
   background: rgb(9, 104, 182);
   color: white;
+  width: 100%;
 }
 
-.column-one {
-  width: 25%;
-}
-
-.column-two {
-  width: 25%;
-}
-
-.column-three {
+.row.three {
   width: 40%;
 }
 
-.row-colored {
+.row.colored {
   background: rgb(113, 184, 243);
 }
 
 footer {
-  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.container-footer {
   font-weight: bold;
   font-size: larger;
   text-align: center;
   background: rgb(113, 184, 243);
   border: 2px solid black;
   padding: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1%;
 }
 
-.img-footer-one,
+footer h5 {
+  text-decoration: underline;
+}
+
+footer .img-footer-one,
 .img-footer-two {
+  display: inline-block;
   background-size: contain;
   height: 150px;
-  width: 20%;
+  width: 40%;
   position: relative;
   border: 2px solid black;
   border-radius: 1%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.img-footer-one {
-  background: url("../img/monitor.jpg") no-repeat center;
+footer .img-footer-one {
+  background: url("../img/monitor.jpg") no-repeat;
 }
 
-.img-footer-two {
-  background: url("../img/graph.jpg") no-repeat center;
+footer .img-footer-two {
+  background: url("../img/graph.jpg") no-repeat;
 }
 
-.lorem-footer {
+footer .lorem-footer {
   color: white;
   position: absolute;
   top: 50%;
@@ -117,4 +138,8 @@ footer {
   padding: 2%;
   border: 2px solid white;
   border-radius: 1%;
+}
+
+footer .love {
+  float: right;
 }

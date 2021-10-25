@@ -1,0 +1,32 @@
+header {
+  background: rgb(0, 132, 255) url("../img/pattern.png") repeat;
+  background-size: contain;
+  height: 100px;
+}
+
+.logo {
+  background: url("../img/logo.svg") no-repeat bottom;
+  background-size: contain;
+  height: 100%;
+  width: 15%;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.written-by {
+  width: 15%;
+}
+
+#first-span {
+  color: grey;
+}
+
+#second-span {
+  color: rgb(7, 154, 252);
+}
+
+#third-span {
+  color: grey;
+}
